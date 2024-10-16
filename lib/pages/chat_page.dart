@@ -143,7 +143,11 @@ class _ChatPageState extends State<ChatPage> {
     var alignment = isMe ? Alignment.centerRight : Alignment.centerLeft;
     return Container(
       alignment: alignment,
-      child: ChatBubble(message: message["message"], isCurrentUser: isMe),
+      child: ChatBubble(
+          message: message["message"],
+          isCurrentUser: isMe,
+          messageId: doc.id,
+          userId: message["senderID"]),
     );
   }
 
