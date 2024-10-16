@@ -1,3 +1,4 @@
+import 'package:chat_app/pages/blocked_users.dart';
 import 'package:chat_app/provider/theme_provider.dart';
 import 'package:chat_app/services/auth/auth_gate.dart';
 import 'package:chat_app/firebase_options.dart';
@@ -24,7 +25,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: const AuthGate(),
       theme: Provider.of<ThemeProvider>(context).themeData,
-      routes: {"/settings": (context) => const SettingsPage()},
+      routes: {
+        "/settings": (context) => const SettingsPage(),
+        "/blocked-users": (context) => BlockedUsers(),
+      },
     );
   }
 }
