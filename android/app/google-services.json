@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "340218184950",
+    "project_id": "chat-app-f552d",
+    "storage_bucket": "chat-app-f552d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340218184950:android:21483743c76fd5bc0cd8d7",
+        "android_client_info": {
+          "package_name": "com.chatapp.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeLA3ngWRb7vsK8zfg1MXmTPVLiw9x2Zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340218184950:android:80415d0f47144af20cd8d7",
+        "android_client_info": {
+          "package_name": "com.chatappterence.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeLA3ngWRb7vsK8zfg1MXmTPVLiw9x2Zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
