@@ -31,7 +31,7 @@ class HomePage extends StatelessWidget {
 
   Widget _builduserList() {
     return StreamBuilder(
-        stream: _chatServices.getUsersStream(),
+        stream: _chatServices.getUsersStreamExceptBlocked(),
         builder: (context, snapshot) {
           // errors
 
